@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container" id="quiz">
+    <h2 id="question">Question Text</h2>
+    <div class="answers">
+      <button class="answer-btn" onclick="selectAnswer(0)">A</button>
+      <button class="answer-btn" onclick="selectAnswer(1)">B</button>
+      <button class="answer-btn" onclick="selectAnswer(2)">C</button>
+      <button class="answer-btn" onclick="selectAnswer(3)">D</button>
+    </div>
+    <button id="prev-btn" onclick="previousQuestion()">Previous</button>
+    <button id="next-btn" onclick="nextQuestion()">Next</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
