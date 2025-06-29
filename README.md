@@ -12,9 +12,9 @@
 
 🛠 Tech Stack
 
-  -**HTML** – Structures the quiz content and layout\\
-  -**CSS** – Styles the user interface to enhance visual appeal\\
-  -**JavaScript** – Implements quiz logic, interactivity, and score handling
+   **HTML** – Structures the quiz content and layout
+   **CSS** – Styles the user interface to enhance visual appeal
+   **JavaScript** – Implements quiz logic, interactivity, and score handling
 
 📂 Project Structure
 
