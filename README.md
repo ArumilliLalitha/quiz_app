@@ -4,16 +4,16 @@
 
 📌 Features
 
-  -Interactive multiple-choice quiz interface
-  -Real-time feedback on selected answers
-  -Score calculation after quiz completion
-  -Responsive and user-friendly design
-  -Clean structure for easy customization and expansion
+   Interactive multiple-choice quiz interface.
+   Real-time feedback on selected answers.
+   Score calculation after quiz completion.
+   Responsive and user-friendly design.
+   Clean structure for easy customization and expansion.
 
 🛠 Tech Stack
 
-  -**HTML** – Structures the quiz content and layout
-  -**CSS** – Styles the user interface to enhance visual appeal
+  -**HTML** – Structures the quiz content and layout\\
+  -**CSS** – Styles the user interface to enhance visual appeal\\
   -**JavaScript** – Implements quiz logic, interactivity, and score handling
 
 📂 Project Structure
