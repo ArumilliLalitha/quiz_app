@@ -4,7 +4,6 @@ body {
   text-align: center;
   margin-top: 50px;
 }
-
 html, body {
   height: 100%;
   margin: 0;
@@ -13,14 +12,12 @@ html, body {
   justify-content: center; /* center horizontally */
   align-items: center;
 }
-
 body {
   background-image: url('https://www.shutterstock.com/shutterstock/videos/1107788731/thumb/1.jpg?ip=x480');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .quiz-container {
   width: 400px;
   margin: auto;
@@ -29,7 +26,6 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
 .answer-btn {
   display: block;
   width: 100%;
@@ -40,11 +36,9 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
 .answer-btn:hover {
   background-color: #ccc;
 }
-
 #prev-btn {
   padding: 10px 20px;
   background-color: #007bff;
@@ -54,13 +48,9 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
-
 #prev-btn:hover {
   background-color: #0056b3;
 }
-
-
-
 #next-btn {
   padding: 10px 20px;
   background-color: #007bff;
@@ -70,7 +60,23 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
-
 #next-btn:hover {
   background-color: #0056b3;
+}
+@media (max-width: 480px) {
+  #question {
+    font-size: 16px;
+  }
+  .answer-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+  #prev-btn,
+  #next-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .answers {
+    gap: 8px;
+  }
 }
