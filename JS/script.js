@@ -54,12 +54,13 @@ const quizData = [
 
 let currentQuestion = 0;
 let score = 0;
+let questionAnswered = false; 
 
 function loadQuestion() {
   const questionEl = document.getElementById("question");
   const buttons = document.getElementsByClassName("answer-btn");
   const prevBtn = document.getElementById("prev-btn");
-
+  questionAnswered = false;
   // Load question text
   questionEl.innerText = quizData[currentQuestion].question;
 
@@ -79,6 +80,8 @@ function loadQuestion() {
 }
 
 function selectAnswer(index) {
+  if (questionAnswered) return; 
+  questionAnswered = true;     
   const buttons = document.getElementsByClassName("answer-btn");
   const correctIndex = quizData[currentQuestion].answer;
 
