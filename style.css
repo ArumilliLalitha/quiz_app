@@ -12,6 +12,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
   background-image: url('https://cdn.pixabay.com/photo/2015/09/18/20/14/banner-944882_1280.jpg');
   background-size: cover;
   background-position: center;
