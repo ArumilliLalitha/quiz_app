@@ -1,8 +1,10 @@
+/* Reset & base setup */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html, body {
   height: 100%;
   width: 100%;
@@ -10,55 +12,69 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('https://www.shutterstock.com/shutterstock/videos/1107788731/thumb/1.jpg?ip=x480');
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/18/20/14/banner-944882_1280.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
 }
+
+/* Quiz box */
 .quiz-container {
-  width: 90%;
+  width: 100%;
   max-width: 400px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.95);
   padding: 30px 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   text-align: center;
 }
+
+/* Question text */
 #question {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
+
+/* Answer buttons */
 .answer-btn {
   display: block;
   width: 100%;
   padding: 12px;
-  margin: 10px 0;
+  margin: 8px 0;
   background-color: #ddd;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  transition: 0.3s;
 }
 
 .answer-btn:hover {
-  background-color: #ccc;
+  background-color: #bbb;
 }
+
+/* Navigation buttons */
 #prev-btn,
 #next-btn {
   padding: 10px 20px;
+  margin: 12px 5px 0 5px;
   background-color: #007bff;
   color: white;
   border: none;
-  margin-top: 20px;
-  cursor: pointer;
-  border-radius: 4px;
+  border-radius: 5px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 #prev-btn:hover,
 #next-btn:hover {
   background-color: #0056b3;
 }
+
+/* Mobile Responsive */
 @media (max-width: 480px) {
   .quiz-container {
     padding: 20px 15px;
@@ -76,6 +92,6 @@ html, body {
   #prev-btn,
   #next-btn {
     font-size: 14px;
-    padding: 10px 16px;
+    padding: 8px 16px;
   }
 }
